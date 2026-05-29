@@ -1,0 +1,58 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rdviewer
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+rdviewer provides a user-friendly print method for parsed Rd files that helps visualising their structure
+
+## Installation
+
+You can install the development version of rdviewer from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("eliocamp/rdviewer")
+```
+
+## Example
+
+We can get the parsed documentation by calling `utils:::.getHelpFile` on the results of `help`. 
+The result is a deeply nested list with text and tags as attributes 
+
+```{r}
+help <- help("mean", package = "base")
+rd <- utils:::.getHelpFile(help[1])
+str(rd[[7]])  # Just one element
+```
+
+The default print method hides all that and prints a approximate representation of the original .Rd file
+
+```{r}
+rd
+```
+rdviewer replaces that with a tree that more closely matches the actual representation of the object
+
+```{r}
+library(rdviewer)  # Just load with library
+```
+
+And then print 
+
+```{r}
+rd
+```
