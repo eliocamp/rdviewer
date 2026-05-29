@@ -15,7 +15,7 @@ rd2char <- function(x, n = 1) {
     x <- gsub("\\n", "\\\\n", x)
     return(paste0("<", tag, "> ", '"', x, '"'))
   }
-  sep <- paste0("\n", strrep("  ", n), "\\u2514\\u2500")
+  sep <- paste0("\n", strrep("  ", n), "└─")
   elements <- vapply(seq_along(x), function(i)
     paste0(sep, "[", i, "]", rd2char(x[[i]], n = n + 2)), FUN.VALUE = character(1))
 
@@ -45,7 +45,7 @@ list2char <- function(x, title = NULL, n = 1) {
     x <- gsub("\\n", "\\\\n", x)
     return(paste0("$", title, ": ", '"', x, '"'))
   }
-  sep <- paste0("\n", strrep("  ", n), "\\u2514\\u2500")
+  sep <- paste0("\n", strrep("  ", n), "└─")
   elements <- vapply(seq_along(x), function(i)
     paste0(sep, "[", i, "]", list2char(
       x[[i]], title = names(x)[i], n = n + 2

@@ -34,52 +34,52 @@ str(rd[[7]])  # Just one element
 #>  $ : chr "\n"
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 8 8 8 8 8 8
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : chr "mean(x, "
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 9 1 9 8 1 8
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : list()
 #>   ..- attr(*, "Rd_tag")= chr "\\dots"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 9 9 9 13 9 13
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : chr ")\n"
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 9 14 9 15 14 15
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : chr "\n"
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 10 1 10 1 1 1
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ :List of 2
 #>   ..$ :List of 1
 #>   .. ..$ : chr "mean"
 #>   .. .. ..- attr(*, "Rd_tag")= chr "TEXT"
 #>   .. .. ..- attr(*, "srcref")= 'srcref' int [1:6] 11 9 11 12 9 12
-#>   .. .. .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. .. .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>   ..$ :List of 1
 #>   .. ..$ : chr "default"
 #>   .. .. ..- attr(*, "Rd_tag")= chr "TEXT"
 #>   .. .. ..- attr(*, "srcref")= 'srcref' int [1:6] 11 15 11 21 15 21
-#>   .. .. .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. .. .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>   ..- attr(*, "Rd_tag")= chr "\\method"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 11 1 11 22 1 22
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : chr "(x, trim = 0, na.rm = FALSE, "
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 11 23 11 51 23 51
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : list()
 #>   ..- attr(*, "Rd_tag")= chr "\\dots"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 11 52 11 56 52 56
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  $ : chr ")\n"
 #>   ..- attr(*, "Rd_tag")= chr "RCODE"
 #>   ..- attr(*, "srcref")= 'srcref' int [1:6] 11 57 11 58 57 58
-#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8> 
+#>   .. ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8> 
 #>  - attr(*, "Rd_tag")= chr "\\usage"
 #>  - attr(*, "srcref")= 'srcref' int [1:6] 8 1 12 1 1 1
-#>   ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x55a682e54fa8>
+#>   ..- attr(*, "srcfile")=Class 'srcfile' <environment: 0x5f528920a9b8>
 ```
 
 The default print method hides all that and prints a approximate
@@ -144,152 +144,152 @@ And then print
 ``` r
 rd
 #> <x>
-#>   \u2514\u2500[1]<\title>
-#>       \u2514\u2500[1]<TEXT> "Arithmetic Mean"
-#>   \u2514\u2500[2]<\name>
-#>       \u2514\u2500[1]<VERB> "mean"
-#>   \u2514\u2500[3]<\alias>
-#>       \u2514\u2500[1]<VERB> "mean"
-#>   \u2514\u2500[4]<\alias>
-#>       \u2514\u2500[1]<VERB> "mean.default"
-#>   \u2514\u2500[5]<\keyword>
-#>       \u2514\u2500[1]<TEXT> "univar"
-#>   \u2514\u2500[6]<\description>
-#>       \u2514\u2500[1]<TEXT> "\n"
-#>       \u2514\u2500[2]<TEXT> "  Generic function for the (trimmed) arithmetic mean.\n"
-#>   \u2514\u2500[7]<\usage>
-#>       \u2514\u2500[1]<RCODE> "\n"
-#>       \u2514\u2500[2]<RCODE> "mean(x, "
-#>       \u2514\u2500[3]<\dots>
-#>       \u2514\u2500[4]<RCODE> ")\n"
-#>       \u2514\u2500[5]<RCODE> "\n"
-#>       \u2514\u2500[6]<\method>
-#>           \u2514\u2500[1]<NULL>
-#>               \u2514\u2500[1]<TEXT> "mean"
-#>           \u2514\u2500[2]<NULL>
-#>               \u2514\u2500[1]<TEXT> "default"
-#>       \u2514\u2500[7]<RCODE> "(x, trim = 0, na.rm = FALSE, "
-#>       \u2514\u2500[8]<\dots>
-#>       \u2514\u2500[9]<RCODE> ")\n"
-#>   \u2514\u2500[8]<\arguments>
-#>       \u2514\u2500[1]<TEXT> "\n"
-#>       \u2514\u2500[2]<TEXT> "  "
-#>       \u2514\u2500[3]<\item>
-#>           \u2514\u2500[1]<NULL>
-#>               \u2514\u2500[1]<TEXT> "x"
-#>           \u2514\u2500[2]<NULL>
-#>               \u2514\u2500[1]<TEXT> "an "
-#>               \u2514\u2500[2]<\R>
-#>               \u2514\u2500[3]<TEXT> " object.  Currently there are methods for\n"
-#>               \u2514\u2500[4]<TEXT> "    numeric/logical vectors and "
-#>               \u2514\u2500[5]<\link>
-#>                   \u2514\u2500[1]<TEXT> "date"
-#>               \u2514\u2500[6]<TEXT> ",\n"
-#>               \u2514\u2500[7]<TEXT> "    "
-#>               \u2514\u2500[8]<\link>
-#>                   \u2514\u2500[1]<TEXT> "date-time"
-#>               \u2514\u2500[9]<TEXT> " and "
-#>               \u2514\u2500[10]<\link>
-#>                   \u2514\u2500[1]<TEXT> "time interval"
-#>               \u2514\u2500[11]<TEXT> " objects.  Complex vectors\n"
-#>               \u2514\u2500[12]<TEXT> "    are allowed for "
-#>               \u2514\u2500[13]<\code>
-#>                   \u2514\u2500[1]<RCODE> "trim = 0"
-#>               \u2514\u2500[14]<TEXT> ", only."
-#>       \u2514\u2500[4]<TEXT> "\n"
-#>       \u2514\u2500[5]<TEXT> "  "
-#>       \u2514\u2500[6]<\item>
-#>           \u2514\u2500[1]<NULL>
-#>               \u2514\u2500[1]<TEXT> "trim"
-#>           \u2514\u2500[2]<NULL>
-#>               \u2514\u2500[1]<TEXT> "the fraction (0 to 0.5) of observations to be\n"
-#>               \u2514\u2500[2]<TEXT> "    trimmed from each end of "
-#>               \u2514\u2500[3]<\code>
-#>                   \u2514\u2500[1]<RCODE> "x"
-#>               \u2514\u2500[4]<TEXT> " before the mean is computed.\n"
-#>               \u2514\u2500[5]<TEXT> "    Values of trim outside that range are taken as the nearest endpoint.\n"
-#>               \u2514\u2500[6]<TEXT> "  "
-#>       \u2514\u2500[7]<TEXT> "\n"
-#>       \u2514\u2500[8]<TEXT> "  "
-#>       \u2514\u2500[9]<\item>
-#>           \u2514\u2500[1]<NULL>
-#>               \u2514\u2500[1]<TEXT> "na.rm"
-#>           \u2514\u2500[2]<NULL>
-#>               \u2514\u2500[1]<TEXT> "a logical evaluating to "
-#>               \u2514\u2500[2]<\code>
-#>                   \u2514\u2500[1]<RCODE> "TRUE"
-#>               \u2514\u2500[3]<TEXT> " or "
-#>               \u2514\u2500[4]<\code>
-#>                   \u2514\u2500[1]<RCODE> "FALSE"
-#>               \u2514\u2500[5]<TEXT> "\n"
-#>               \u2514\u2500[6]<TEXT> "    indicating whether "
-#>               \u2514\u2500[7]<\code>
-#>                   \u2514\u2500[1]<RCODE> "NA"
-#>               \u2514\u2500[8]<TEXT> " values should be stripped before the\n"
-#>               \u2514\u2500[9]<TEXT> "    computation proceeds."
-#>       \u2514\u2500[10]<TEXT> " \n"
-#>       \u2514\u2500[11]<TEXT> "  "
-#>       \u2514\u2500[12]<\item>
-#>           \u2514\u2500[1]<NULL>
-#>               \u2514\u2500[1]<\dots>
-#>           \u2514\u2500[2]<NULL>
-#>               \u2514\u2500[1]<TEXT> "further arguments passed to or from other methods."
-#>       \u2514\u2500[13]<TEXT> "\n"
-#>   \u2514\u2500[9]<\value>
-#>       \u2514\u2500[1]<TEXT> "\n"
-#>       \u2514\u2500[2]<TEXT> "  If "
-#>       \u2514\u2500[3]<\code>
-#>           \u2514\u2500[1]<RCODE> "trim"
-#>       \u2514\u2500[4]<TEXT> " is zero (the default), the arithmetic mean of the\n"
-#>       \u2514\u2500[5]<TEXT> "  values in "
-#>       \u2514\u2500[6]<\code>
-#>           \u2514\u2500[1]<RCODE> "x"
-#>       \u2514\u2500[7]<TEXT> " is computed, as a numeric or complex vector of\n"
-#>       \u2514\u2500[8]<TEXT> "  length one.  If "
-#>       \u2514\u2500[9]<\code>
-#>           \u2514\u2500[1]<RCODE> "x"
-#>       \u2514\u2500[10]<TEXT> " is not logical (coerced to numeric), numeric\n"
-#>       \u2514\u2500[11]<TEXT> "  (including integer) or complex, "
-#>       \u2514\u2500[12]<\code>
-#>           \u2514\u2500[1]<RCODE> "NA_real_"
-#>       \u2514\u2500[13]<TEXT> " is returned, with a warning.\n"
-#>       \u2514\u2500[14]<TEXT> "\n"
-#>       \u2514\u2500[15]<TEXT> "  If "
-#>       \u2514\u2500[16]<\code>
-#>           \u2514\u2500[1]<RCODE> "trim"
-#>       \u2514\u2500[17]<TEXT> " is non-zero, a symmetrically trimmed mean is computed\n"
-#>       \u2514\u2500[18]<TEXT> "  with a fraction of "
-#>       \u2514\u2500[19]<\code>
-#>           \u2514\u2500[1]<RCODE> "trim"
-#>       \u2514\u2500[20]<TEXT> " observations deleted from each end\n"
-#>       \u2514\u2500[21]<TEXT> "  before the mean is computed.\n"
-#>   \u2514\u2500[10]<\references>
-#>       \u2514\u2500[1]<TEXT> "\n"
-#>       \u2514\u2500[2]<TEXT> "  Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n"
-#>       \u2514\u2500[3]<TEXT> "  "
-#>       \u2514\u2500[4]<\emph>
-#>           \u2514\u2500[1]<TEXT> "The New S Language"
-#>       \u2514\u2500[5]<TEXT> ".\n"
-#>       \u2514\u2500[6]<TEXT> "  Wadsworth & Brooks/Cole.\n"
-#>   \u2514\u2500[11]<\seealso>
-#>       \u2514\u2500[1]<TEXT> "\n"
-#>       \u2514\u2500[2]<TEXT> "  "
-#>       \u2514\u2500[3]<\code>
-#>           \u2514\u2500[1]<\link>
-#>               \u2514\u2500[1]<TEXT> "weighted.mean"
-#>       \u2514\u2500[4]<TEXT> ", "
-#>       \u2514\u2500[5]<\code>
-#>           \u2514\u2500[1]<\link>
-#>               \u2514\u2500[1]<TEXT> "mean.POSIXct"
-#>       \u2514\u2500[6]<TEXT> ",\n"
-#>       \u2514\u2500[7]<TEXT> "  "
-#>       \u2514\u2500[8]<\code>
-#>           \u2514\u2500[1]<\link>
-#>               \u2514\u2500[1]<TEXT> "colMeans"
-#>       \u2514\u2500[9]<TEXT> " for row and column means.\n"
-#>   \u2514\u2500[12]<\examples>
-#>       \u2514\u2500[1]<RCODE> "\n"
-#>       \u2514\u2500[2]<RCODE> "x <- c(0:10, 50)\n"
-#>       \u2514\u2500[3]<RCODE> "xm <- mean(x)\n"
-#>       \u2514\u2500[4]<RCODE> "c(xm, mean(x, trim = 0.10))\n"
+#>   └─[1]<\title>
+#>       └─[1]<TEXT> "Arithmetic Mean"
+#>   └─[2]<\name>
+#>       └─[1]<VERB> "mean"
+#>   └─[3]<\alias>
+#>       └─[1]<VERB> "mean"
+#>   └─[4]<\alias>
+#>       └─[1]<VERB> "mean.default"
+#>   └─[5]<\keyword>
+#>       └─[1]<TEXT> "univar"
+#>   └─[6]<\description>
+#>       └─[1]<TEXT> "\n"
+#>       └─[2]<TEXT> "  Generic function for the (trimmed) arithmetic mean.\n"
+#>   └─[7]<\usage>
+#>       └─[1]<RCODE> "\n"
+#>       └─[2]<RCODE> "mean(x, "
+#>       └─[3]<\dots>
+#>       └─[4]<RCODE> ")\n"
+#>       └─[5]<RCODE> "\n"
+#>       └─[6]<\method>
+#>           └─[1]<NULL>
+#>               └─[1]<TEXT> "mean"
+#>           └─[2]<NULL>
+#>               └─[1]<TEXT> "default"
+#>       └─[7]<RCODE> "(x, trim = 0, na.rm = FALSE, "
+#>       └─[8]<\dots>
+#>       └─[9]<RCODE> ")\n"
+#>   └─[8]<\arguments>
+#>       └─[1]<TEXT> "\n"
+#>       └─[2]<TEXT> "  "
+#>       └─[3]<\item>
+#>           └─[1]<NULL>
+#>               └─[1]<TEXT> "x"
+#>           └─[2]<NULL>
+#>               └─[1]<TEXT> "an "
+#>               └─[2]<\R>
+#>               └─[3]<TEXT> " object.  Currently there are methods for\n"
+#>               └─[4]<TEXT> "    numeric/logical vectors and "
+#>               └─[5]<\link>
+#>                   └─[1]<TEXT> "date"
+#>               └─[6]<TEXT> ",\n"
+#>               └─[7]<TEXT> "    "
+#>               └─[8]<\link>
+#>                   └─[1]<TEXT> "date-time"
+#>               └─[9]<TEXT> " and "
+#>               └─[10]<\link>
+#>                   └─[1]<TEXT> "time interval"
+#>               └─[11]<TEXT> " objects.  Complex vectors\n"
+#>               └─[12]<TEXT> "    are allowed for "
+#>               └─[13]<\code>
+#>                   └─[1]<RCODE> "trim = 0"
+#>               └─[14]<TEXT> ", only."
+#>       └─[4]<TEXT> "\n"
+#>       └─[5]<TEXT> "  "
+#>       └─[6]<\item>
+#>           └─[1]<NULL>
+#>               └─[1]<TEXT> "trim"
+#>           └─[2]<NULL>
+#>               └─[1]<TEXT> "the fraction (0 to 0.5) of observations to be\n"
+#>               └─[2]<TEXT> "    trimmed from each end of "
+#>               └─[3]<\code>
+#>                   └─[1]<RCODE> "x"
+#>               └─[4]<TEXT> " before the mean is computed.\n"
+#>               └─[5]<TEXT> "    Values of trim outside that range are taken as the nearest endpoint.\n"
+#>               └─[6]<TEXT> "  "
+#>       └─[7]<TEXT> "\n"
+#>       └─[8]<TEXT> "  "
+#>       └─[9]<\item>
+#>           └─[1]<NULL>
+#>               └─[1]<TEXT> "na.rm"
+#>           └─[2]<NULL>
+#>               └─[1]<TEXT> "a logical evaluating to "
+#>               └─[2]<\code>
+#>                   └─[1]<RCODE> "TRUE"
+#>               └─[3]<TEXT> " or "
+#>               └─[4]<\code>
+#>                   └─[1]<RCODE> "FALSE"
+#>               └─[5]<TEXT> "\n"
+#>               └─[6]<TEXT> "    indicating whether "
+#>               └─[7]<\code>
+#>                   └─[1]<RCODE> "NA"
+#>               └─[8]<TEXT> " values should be stripped before the\n"
+#>               └─[9]<TEXT> "    computation proceeds."
+#>       └─[10]<TEXT> " \n"
+#>       └─[11]<TEXT> "  "
+#>       └─[12]<\item>
+#>           └─[1]<NULL>
+#>               └─[1]<\dots>
+#>           └─[2]<NULL>
+#>               └─[1]<TEXT> "further arguments passed to or from other methods."
+#>       └─[13]<TEXT> "\n"
+#>   └─[9]<\value>
+#>       └─[1]<TEXT> "\n"
+#>       └─[2]<TEXT> "  If "
+#>       └─[3]<\code>
+#>           └─[1]<RCODE> "trim"
+#>       └─[4]<TEXT> " is zero (the default), the arithmetic mean of the\n"
+#>       └─[5]<TEXT> "  values in "
+#>       └─[6]<\code>
+#>           └─[1]<RCODE> "x"
+#>       └─[7]<TEXT> " is computed, as a numeric or complex vector of\n"
+#>       └─[8]<TEXT> "  length one.  If "
+#>       └─[9]<\code>
+#>           └─[1]<RCODE> "x"
+#>       └─[10]<TEXT> " is not logical (coerced to numeric), numeric\n"
+#>       └─[11]<TEXT> "  (including integer) or complex, "
+#>       └─[12]<\code>
+#>           └─[1]<RCODE> "NA_real_"
+#>       └─[13]<TEXT> " is returned, with a warning.\n"
+#>       └─[14]<TEXT> "\n"
+#>       └─[15]<TEXT> "  If "
+#>       └─[16]<\code>
+#>           └─[1]<RCODE> "trim"
+#>       └─[17]<TEXT> " is non-zero, a symmetrically trimmed mean is computed\n"
+#>       └─[18]<TEXT> "  with a fraction of "
+#>       └─[19]<\code>
+#>           └─[1]<RCODE> "trim"
+#>       └─[20]<TEXT> " observations deleted from each end\n"
+#>       └─[21]<TEXT> "  before the mean is computed.\n"
+#>   └─[10]<\references>
+#>       └─[1]<TEXT> "\n"
+#>       └─[2]<TEXT> "  Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988)\n"
+#>       └─[3]<TEXT> "  "
+#>       └─[4]<\emph>
+#>           └─[1]<TEXT> "The New S Language"
+#>       └─[5]<TEXT> ".\n"
+#>       └─[6]<TEXT> "  Wadsworth & Brooks/Cole.\n"
+#>   └─[11]<\seealso>
+#>       └─[1]<TEXT> "\n"
+#>       └─[2]<TEXT> "  "
+#>       └─[3]<\code>
+#>           └─[1]<\link>
+#>               └─[1]<TEXT> "weighted.mean"
+#>       └─[4]<TEXT> ", "
+#>       └─[5]<\code>
+#>           └─[1]<\link>
+#>               └─[1]<TEXT> "mean.POSIXct"
+#>       └─[6]<TEXT> ",\n"
+#>       └─[7]<TEXT> "  "
+#>       └─[8]<\code>
+#>           └─[1]<\link>
+#>               └─[1]<TEXT> "colMeans"
+#>       └─[9]<TEXT> " for row and column means.\n"
+#>   └─[12]<\examples>
+#>       └─[1]<RCODE> "\n"
+#>       └─[2]<RCODE> "x <- c(0:10, 50)\n"
+#>       └─[3]<RCODE> "xm <- mean(x)\n"
+#>       └─[4]<RCODE> "c(xm, mean(x, trim = 0.10))\n"
 ```
