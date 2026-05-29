@@ -1,0 +1,13 @@
+Package: rdviewer
+Type: Package
+Title: Provides a neat print method for parsed RD files
+Version: 0.1.0
+Authors@R: c(
+    person("Elio", "Campitelli", , "eliocampitelli@gmail.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-7742-9230"))
+           )
+Description: What is says on the tin.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
